@@ -2,11 +2,11 @@
 
 <img src="images/connect-screen.PNG" style="zoom: 80%;" />
 
-[src/kodluyoruz/client/ServerScreen](Server için hareket yön tuşları ile hareket ettirilen ekran) 
+[Server için hareket yön tuşları ile hareket ettirilen ekran](https://github.com/grbzali/server-client-demo/blob/master/src/kodluyoruz/server/ServerScreen.java) 
 
 ![](images/square.PNG) 
 
-[src/kodluyoruz/Main](Server tarafından gönderilen mesajı Telnet ile server a bağlanıp alınması) 
+[Server tarafından gönderilen mesajı Telnet ile server a bağlanıp alınması](https://github.com/grbzali/server-client-demo/blob/master/src/kodluyoruz/Main.java) 
 
 ![](images/server-client.PNG)
 
