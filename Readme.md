@@ -1,4 +1,4 @@
-[blob/master/src/kodluyoruz/client/ConnectScreen.java](Client için bağlantı ekranı) 
+[src/kodluyoruz/client/ConnectScreen.java](Client için bağlantı ekranı) 
 
 <img src="images/connect-screen.PNG" style="zoom: 80%;" />
 
