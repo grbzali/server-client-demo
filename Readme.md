@@ -1,4 +1,4 @@
-[https://github.com/grbzali/server-client-demo/blob/master/src/kodluyoruz/client/ConnectScreen.java](Client için bağlantı ekranı) 
+[Client için bağlantı ekranı](https://github.com/grbzali/server-client-demo/blob/master/src/kodluyoruz/client/ConnectScreen.java) 
 
 <img src="images/connect-screen.PNG" style="zoom: 80%;" />
 
