@@ -41,22 +41,22 @@ public class ServerScreen extends JPanel implements ActionListener, KeyListener 
 
     public void down() {
         if (y+50 >= maxHeightSize +5);
-        else y += 3;
+        else setY(3);
     }
 
     public void up() {
         if (y-5 <= 0);
-        else y -= 3;
+        else setY(-3);
     }
 
     public void left() {
         if (x-5 <= 0);
-        else x -= 3;
+        else setX(-3);
     }
 
     public void right() {
         if (x+50 >= maxWidthSize +5);
-        else x += 3;
+        else setX(3);
     }
 
     @Override
@@ -85,13 +85,15 @@ public class ServerScreen extends JPanel implements ActionListener, KeyListener 
     public void keyReleased(KeyEvent e) {
 
     }
-    @Override
+
     public int getX() {
         return x;
     }
 
-    @Override
-    public int getY() {
-        return y;
-    }
+
+    public int getY() { return y; }
+
+    public void setX(int x) { this.x += x; }
+
+    public void setY(int y) { this.y += y; }
 }
